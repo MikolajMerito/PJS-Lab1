@@ -64,7 +64,7 @@ def load_users(file_path: str) -> list[dict]:
         except ValueError as e:
             print(f"Błąd walidacji użytkownika: {e}", file=sys.stderr)
     
-        return users
+    return users
 
 
 def display_users_table(users: list[dict]) -> None:
